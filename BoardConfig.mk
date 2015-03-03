@@ -13,6 +13,12 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_NO_INITLOGO := true
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
+# Bluetooth
+BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/l70pds/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/lge/l70pds/bluetooth/vnd_l70pds.txt
+
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
