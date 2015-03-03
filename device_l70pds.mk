@@ -3,6 +3,13 @@ LOCAL_PATH := device/lge/l70pds
 # Ramdisk
 PRODUCT_COPY_FILES += \
 	   $(LOCAL_PATH)/ramdisk/recovery.fstab:root/recovery.fstab \
+	   
+# Userdebug 
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
+    persist.service.adb.enable=1	   
 
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 
