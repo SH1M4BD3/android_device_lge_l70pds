@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_l70pds.mk
+    $(LOCAL_DIR)/full_l70pds.mk 
