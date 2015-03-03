@@ -8,6 +8,8 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := krait
+TARGET_NO_RADIOIMAGE := true
+TARGET_NO_INITLOGO := true
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
